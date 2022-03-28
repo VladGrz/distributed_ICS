@@ -40,6 +40,7 @@ def main():
     print(f"Your name has {name_length} letters. {name_length}! = {get_fact(name_length)}")
     birth_date = get_birth_date()
     user_age(birth_date)
+    input()
 
 
 if __name__ == '__main__':
